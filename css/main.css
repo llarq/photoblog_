@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+:root {
+  --main-text-color: #626262;
+  --accent-color: #03A9F4;
+  --bg-color: #FFFFFF;
+  --scnd-color: #B4AD9E;
+  --header-link-color: #7D7D7D;
+  --main-text-size: 14px;
+  --title-text-size: 30px;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
+  font-size: var(--main-text-size);
+}
+
+h1 {
+  display: none;
+}
+
+.button {
+  padding: 20px 48px;
+  color: var(--main-text-color);
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid var(--main-text-color);
+  display: block;
+}
+
+.container {
+  width: 936px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* outline: 2px dashed blue;  */
+}
+
+.header-list {
+  text-transform: uppercase;
+  display: flex;
+  gap: 100px;
+  padding-left: 0;
+  width: 100%;
+  /* margin: 0 auto; */
+  justify-content: center;
+}
+
+.header {
+  margin-top: 71px;
+  margin-bottom: 92px;
+}
+
+.header-link {
+  color: var(--header-link-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-link-current {
+  color: var(--accent-color);
+}
+
+.header-nav {
+  display: flex;
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 65px;
+       column-gap: 65px;
+  row-gap: 130px;
+  margin-bottom: 95px;
+  padding-left: 0;
+}
+
+.gallery-list-item {
+  width: 420px;
+}
+
+.gallery-image {
+  margin-bottom: 62px;
+}
+
+.gallery-title {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.gallery-title {
+  color: var(--title-text-size);
+}
+
+.gallery-name > a {
+  font-family: "Ubuntu", sans-serif;
+  color: var(--scnd-color);
+}/*# sourceMappingURL=main.css.map */

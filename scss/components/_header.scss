@@ -1,0 +1,31 @@
+.header-list {
+    text-transform: uppercase;
+    display: flex;
+    gap: 100px;
+    padding-left: 0;
+    width: 100%;
+    /* margin: 0 auto; */
+    justify-content: center;
+}
+
+.header {
+    margin-top: 71px;
+    margin-bottom: 92px;
+}
+
+.header-link{
+    color: var(--header-link-color);
+}
+
+.header-link:hover, 
+.header-link:focus{
+    color: var(--accent-color);
+}
+
+.header-link-current{
+    color: var(--accent-color);
+}
+
+.header-nav {
+    display: flex;
+}
