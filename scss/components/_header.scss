@@ -1,31 +1,27 @@
-.header-list {
-    text-transform: uppercase;
-    display: flex;
-    gap: 100px;
-    padding-left: 0;
-    width: 100%;
-    /* margin: 0 auto; */
-    justify-content: center;
-}
-
 .header {
     margin-top: 71px;
     margin-bottom: 92px;
+    &-nav {
+        display: flex;
+    }
+    &-list {
+        text-transform: uppercase;
+        display: flex;
+        gap: 100px;
+        padding-left: 0;
+        width: 100%;
+        /* margin: 0 auto; */
+        justify-content: center; 
+    }
 }
 
 .header-link{
     color: $header-link-color;
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
 }
-
-.header-link:hover, 
-.header-link:focus{
-    color: $accent-color;
-}
-
 .header-link-current{
     color: $accent-color;
-}
-
-.header-nav {
-    display: flex;
 }

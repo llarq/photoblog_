@@ -1,28 +1,35 @@
-.gallery-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 65px;
-    row-gap: 130px;
-    margin-bottom: 95px;
-    padding-left: 0; 
- }
- 
- .gallery-list-item {
-     width: 420px;
- }
+.gallery {
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 65px;
+        row-gap: 130px;
+        margin-bottom: 95px;
+        padding-left: 0; 
+     }
+     
+    &-item {
+         width: 420px;
+     }
+    
+    &-image {
+        margin-bottom: 62px;
+    }
+    &-title {
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+    
+    &-title{
+        color: $title-text-size;
+    }
+    &-name > a{
+        font-family: "Ubuntu", sans-serif;
+        color: $scnd-color;
+    }
+}
 
- .gallery-image {
-    margin-bottom: 62px;
-}
-.gallery-title {
-    margin-top: 32px;
-    margin-bottom: 40px;
-}
 
-.gallery-title{
-    color: $title-text-size;
-}
-.gallery-name > a{
-    font-family: "Ubuntu", sans-serif;
-    color: $scnd-color;
-}
+
+
+

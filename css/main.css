@@ -80,6 +80,13 @@ h1 {
   /* outline: 2px dashed blue;  */
 }
 
+.header {
+  margin-top: 71px;
+  margin-bottom: 92px;
+}
+.header-nav {
+  display: flex;
+}
 .header-list {
   text-transform: uppercase;
   display: flex;
@@ -90,26 +97,15 @@ h1 {
   justify-content: center;
 }
 
-.header {
-  margin-top: 71px;
-  margin-bottom: 92px;
-}
-
 .header-link {
   color: #7D7D7D;
 }
-
-.header-link:hover,
-.header-link:focus {
+.header-link:hover, .header-link:focus {
   color: #03A9F4;
 }
 
 .header-link-current {
   color: #03A9F4;
-}
-
-.header-nav {
-  display: flex;
 }
 
 .gallery-list {
@@ -121,24 +117,19 @@ h1 {
   margin-bottom: 95px;
   padding-left: 0;
 }
-
-.gallery-list-item {
+.gallery-item {
   width: 420px;
 }
-
 .gallery-image {
   margin-bottom: 62px;
 }
-
 .gallery-title {
   margin-top: 32px;
   margin-bottom: 40px;
 }
-
 .gallery-title {
   color: 30px;
 }
-
 .gallery-name > a {
   font-family: "Ubuntu", sans-serif;
   color: #B4AD9E;
