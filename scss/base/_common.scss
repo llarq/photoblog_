@@ -3,9 +3,9 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: var(--bg-color);
-    color: var(--main-text-color);
-    font-size: var(--main-text-size);
+    background-color: $bg-color;
+    color: $main-text-color;
+    font-size: $main-text-size;
   }
   
   h1 {
@@ -13,10 +13,10 @@ body{
   }
   .button {
       padding: 20px 48px;
-      color: var(--main-text-color);
+      color: $main-text-color;
       margin: 0 auto;
       font-weight: 400;
       font-size: 14px;
-      border: 1px solid var(--main-text-color);
+      border: 1px solid $main-text-color;
       display: block;
   }

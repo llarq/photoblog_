@@ -14,16 +14,16 @@
 }
 
 .header-link{
-    color: var(--header-link-color);
+    color: $header-link-color;
 }
 
 .header-link:hover, 
 .header-link:focus{
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .header-link-current{
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .header-nav {

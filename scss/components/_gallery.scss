@@ -20,9 +20,9 @@
 }
 
 .gallery-title{
-    color: var(--title-text-size);
+    color: $title-text-size;
 }
 .gallery-name > a{
     font-family: "Ubuntu", sans-serif;
-    color: var(--scnd-color);
+    color: $scnd-color;
 }

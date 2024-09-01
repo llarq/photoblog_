@@ -49,24 +49,14 @@ figure {
   margin: 0;
 }
 
-:root {
-  --main-text-color: #626262;
-  --accent-color: #03A9F4;
-  --bg-color: #FFFFFF;
-  --scnd-color: #B4AD9E;
-  --header-link-color: #7D7D7D;
-  --main-text-size: 14px;
-  --title-text-size: 30px;
-}
-
 body {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background-color: var(--bg-color);
-  color: var(--main-text-color);
-  font-size: var(--main-text-size);
+  background-color: #FFFFFF;
+  color: #626262;
+  font-size: 14px;
 }
 
 h1 {
@@ -75,11 +65,11 @@ h1 {
 
 .button {
   padding: 20px 48px;
-  color: var(--main-text-color);
+  color: #626262;
   margin: 0 auto;
   font-weight: 400;
   font-size: 14px;
-  border: 1px solid var(--main-text-color);
+  border: 1px solid #626262;
   display: block;
 }
 
@@ -106,16 +96,16 @@ h1 {
 }
 
 .header-link {
-  color: var(--header-link-color);
+  color: #7D7D7D;
 }
 
 .header-link:hover,
 .header-link:focus {
-  color: var(--accent-color);
+  color: #03A9F4;
 }
 
 .header-link-current {
-  color: var(--accent-color);
+  color: #03A9F4;
 }
 
 .header-nav {
@@ -146,10 +136,10 @@ h1 {
 }
 
 .gallery-title {
-  color: var(--title-text-size);
+  color: 30px;
 }
 
 .gallery-name > a {
   font-family: "Ubuntu", sans-serif;
-  color: var(--scnd-color);
+  color: #B4AD9E;
 }/*# sourceMappingURL=main.css.map */
